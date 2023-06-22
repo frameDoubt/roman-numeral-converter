@@ -1,0 +1,30 @@
+import convertToRoman from "./convertToRoman";
+
+const errMessage = str => `this doesn't equal ${str}`;
+
+console.assert(convertToRoman(2) === "II", errMessage("II"));
+console.assert(convertToRoman(3) === "III", errMessage("III"));
+console.assert(convertToRoman(4) === "IV", errMessage("IV"));
+console.assert(convertToRoman(5) === "V", errMessage("V"));
+console.assert(convertToRoman(9) === "IX", errMessage("IX"));
+console.assert(convertToRoman(12) === "XII", errMessage("XII"));
+console.assert(convertToRoman(16) === "XVI", errMessage("XVI"));
+console.assert(convertToRoman(29) === "XXIX", errMessage("XXIX"));
+console.assert(convertToRoman(44) === "XLIV", errMessage("XLIV"));
+console.assert(convertToRoman(45) === "XLV", errMessage("XLV"));
+console.assert(convertToRoman(68) === "LXVIII", errMessage("LXVIII"));
+console.assert(convertToRoman(83) === "LXXXIII", errMessage("LXXXIII"));
+console.assert(convertToRoman(97) === "XCVII", errMessage("XCVII"));
+console.assert(convertToRoman(99) === "XCIX", errMessage("XCIX"));
+console.assert(convertToRoman(400) === "CD", errMessage("CD"));
+console.assert(convertToRoman(500) === "D", errMessage("D"));
+console.assert(convertToRoman(501) === "DI", errMessage("DI"));
+console.assert(convertToRoman(649) === "DCXLIX", errMessage("DCXLIX"));
+console.assert(convertToRoman(798) === "DCCXCVIII", errMessage("DCCXCVIII"));
+console.assert(convertToRoman(891) === "DCCCXCI", errMessage("DCCCXCI"));
+console.assert(convertToRoman(1000) === "M", errMessage("M"));
+console.assert(convertToRoman(1004) === "MIV", errMessage("MIV"));
+console.assert(convertToRoman(1006) === "MVI", errMessage("MVI"));
+console.assert(convertToRoman(1023) === "MXXIII", errMessage("MXXIII"));
+console.assert(convertToRoman(2014) === "MMXIV", errMessage("MMXIV"));
+console.assert(convertToRoman(3999) === "MMMCMXCIX", errMessage("MMMCMXCIX"));
