@@ -1,0 +1,20 @@
+{
+  "name": "roman-numeral-converter",
+  "version": "1.0.0",
+  "description": "--- Convert the given number into a roman numeral.",
+  "main": "convertToRoman.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frameDoubt/roman-numeral-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frameDoubt/roman-numeral-converter/issues"
+  },
+  "homepage": "https://github.com/frameDoubt/roman-numeral-converter#readme"
+}

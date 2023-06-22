@@ -1,4 +1,4 @@
-import convertToRoman from "./convertToRoman";
+import { convertToRoman } from "./convertToRoman.js";
 
 const errMessage = str => `this doesn't equal ${str}`;
 
