@@ -19,4 +19,4 @@ function convertToRoman(num) {
   return romanNumeral;
  }
 
- console.assert(convertToRoman(3999) === "MMMCMXCIX", "assertion failed");
+export default convertToRoman;
